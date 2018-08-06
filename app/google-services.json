@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "991170648591",
+    "firebase_url": "https://honda-service-booking.firebaseio.com",
+    "project_id": "honda-service-booking",
+    "storage_bucket": "honda-service-booking.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:991170648591:android:8018d3fdbd63f5e8",
+        "android_client_info": {
+          "package_name": "com.yoga.hondaservicebooking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "991170648591-0351nnmfprjfvepnkjn5k3grq5k6k1gi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.yoga.hondaservicebooking",
+            "certificate_hash": "e8775d6313e35e489d4a9e00308afbc7f81d7739"
+          }
+        },
+        {
+          "client_id": "991170648591-00aketk1d1qdgmatq46rlvaqqfh0t26p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEXWnNCPOGviJev_Z52CNt6ETWCZq3X4c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "991170648591-00aketk1d1qdgmatq46rlvaqqfh0t26p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

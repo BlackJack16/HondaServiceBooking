@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_booking_add"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#f5f5f5">
+            <TextView
+                android:text="* Masukkan informasi Booking Service dengan benar!\n* Jadwal Service yang Anda booking akan dikonfirmasi dulu oleh Administrator!"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="#444"
+                android:layout_marginBottom="16dp"
+                android:textSize="12sp" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/white"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingBottom="16dp"
+                android:paddingTop="10dp">
+
+                <TextView
+                    android:text="Kendaraan Anda"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textSize="12sp"
+                    android:textColor="#444" />
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#ddd"
+                    android:padding="1dp"
+                    android:layout_marginTop="10dp">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/white">
+                        <Spinner
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/cbKendaraan"
+                            android:spinnerMode="dialog" />
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <TextView
+                    android:text="Tanggal Booking"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textSize="12sp"
+                    android:textColor="#444" />
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:background="@android:color/white"
+                    android:layout_height="wrap_content">
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:ems="10"
+                        android:background="@android:color/white"
+                        android:layout_weight="1"
+                        android:id="@+id/txtTanggal"
+                        android:inputType="none"
+                        android:editable="false"
+                        android:hint="DD/MM/YYYY"
+                        android:onClick="showPicker"
+                        android:textSize="14sp"
+                        android:padding="10dp" />
+                    <ImageView
+                        android:padding="10dp"
+                        android:onClick="showPicker"
+                        android:src="@drawable/ic_kalender"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+
+                <TextView
+                    android:text="Jam Booking"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textSize="12sp"
+                    android:textColor="#444" />
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/white">
+
+                    <Spinner
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/cbJam"
+                        android:padding="10dp"
+                        android:entries="@array/arr_jam"/>
+                    <Spinner
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/cbMenit"
+                        android:padding="10dp"
+                        android:entries="@array/arr_menit"
+                        android:clickable="false" />
+                </LinearLayout>
+
+                <TextView
+                    android:text="Catatan Service"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textSize="12sp"
+                    android:textColor="#444" />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:gravity="top"
+                    android:ems="10"
+                    android:id="@+id/txtCatatan"
+                    android:inputType="textMultiLine"
+                    android:hint="Catatan Service Kendaraan Anda"
+                    android:background="@android:color/white"
+                    android:padding="10dp"
+                    android:layout_height="100dp"
+                    android:textSize="14sp" />
+
+                <Button
+                    android:text="Simpan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnSimpan"
+                    android:background="@android:color/holo_orange_dark"
+                    android:textColor="@android:color/white"
+                    android:onClick="doSimpan"
+                    android:layout_marginTop="10dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

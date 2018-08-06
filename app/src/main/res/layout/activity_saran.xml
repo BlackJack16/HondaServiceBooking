@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_saran"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context="com.yoga.hondaservicebooking.Saran">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#f1f1f1" >
+
+            <TextView
+                android:text="Saran dan Kritik Anda sangat berharga untuk kami."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="16dp"
+                android:paddingLeft="16dp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:background="@android:color/white"
+                android:textColor="@android:color/black"
+                android:layout_marginBottom="16dp" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="10dp"
+                android:background="@android:color/white">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#f1f1f1"
+                    android:padding="2dp"
+                    android:layout_marginBottom="16dp">
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:inputType="textMultiLine"
+                        android:ems="10"
+                        android:id="@+id/txtIsi"
+                        android:hint="Masukkan saran dan kritik Anda..."
+                        android:textSize="15sp"
+                        android:background="@android:color/white"
+                        android:padding="10dp"
+                        android:layout_height="150dp"
+                        android:gravity="top|center_vertical" />
+                </LinearLayout>
+
+                <Button
+                    android:text="kirim"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnKirim"
+                    android:onClick="doKirim"
+                    android:background="@android:color/holo_orange_dark"
+                    android:textColor="@android:color/white" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_pengaturan"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yoga.hondaservicebooking.Pengaturan"
+    android:background="#fff">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:background="#f5f5f5">
+
+                <TextView
+                    android:text="Nomor Identitas"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:text="123893422342345"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/lblNo"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@android:color/holo_blue_dark" />
+
+                <TextView
+                    android:text="Nama Lengkap"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:text="Yoga Dwi Setiandika"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/lblNama"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@android:color/holo_blue_dark" />
+                <TextView
+                    android:text="Alamat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:text="Palembang"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/lblAlamat"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@android:color/holo_blue_dark" />
+
+                <TextView
+                    android:text="Tempat, Tanggal Lahir"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:text="Palembang, 01 Januari 1994"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/lblTTL"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@android:color/holo_blue_dark" />
+
+                <TextView
+                    android:text="Jenis Kelamin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:text="Laki-laki"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/lblJK"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@android:color/holo_blue_dark" />
+
+                <TextView
+                    android:text="Agama"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:text="Islam"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/lblAgama"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@android:color/holo_blue_dark" />
+
+                <TextView
+                    android:text="Telepon"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:text="08234563224"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/lblTelepon"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@android:color/holo_blue_dark" />
+
+                <TextView
+                    android:text="Email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:text="yogadwisetiandika@gmail.com"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/lblEmail"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@android:color/holo_blue_dark" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#f5f5f5" />
+
+            <TextView
+                android:text="Ganti Password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnPassword"
+                android:textColor="#000"
+                android:clickable="true"
+                android:background="?attr/selectableItemBackground"
+                android:padding="16dp"
+                android:onClick="showPassword"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#f5f5f5" />
+
+            <TextView
+                android:text="Log Out"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnLogout"
+                android:textColor="#000"
+                android:clickable="true"
+                android:background="?attr/selectableItemBackground"
+                android:padding="16dp"
+                android:onClick="showLogout"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#f5f5f5" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

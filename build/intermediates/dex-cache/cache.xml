@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/blackjack/Downloads/Yoga/HondaServiceBooking/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c9649557905bf7a80fca9e0d54cbcb7662627860">
+        <dex dex="/Users/blackjack/Downloads/Yoga/HondaServiceBooking/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.1.1_cf0118275ccc899b6fd99b6b6df86646fc02183b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/blackjack/Downloads/Yoga/HondaServiceBooking/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
+        <dex dex="/Users/blackjack/Downloads/Yoga/HondaServiceBooking/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.1.1_6264ebb52b4beb048d0579cabac5409dba2df4f0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/blackjack/.gradle/caches/modules-2/files-2.1/com.firebase/tubesock/0.0.12/6ec0bbd3e161a73ed672284b587fd32309a86d7a/tubesock-0.0.12.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6ec0bbd3e161a73ed672284b587fd32309a86d7a">
+        <dex dex="/Users/blackjack/Downloads/Yoga/HondaServiceBooking/app/build/intermediates/pre-dexed/debug/tubesock-0.0.12_734862d26f0b4889dcc2a7ec478f72b3a70a1624.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/blackjack/Downloads/Yoga/HondaServiceBooking/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
+        <dex dex="/Users/blackjack/Downloads/Yoga/HondaServiceBooking/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.1.1_2e23f35678c9b6b47890f6c5dac8813b0d60472a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/blackjack/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpmime/4.3.6/cf8bacbf0d476c7f2221f861269365b66447f7ec/httpmime-4.3.6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cf8bacbf0d476c7f2221f861269365b66447f7ec">
+        <dex dex="/Users/blackjack/Downloads/Yoga/HondaServiceBooking/app/build/intermediates/pre-dexed/debug/httpmime-4.3.6_299714b9a62e5fbc8e2e7eb17cd73a80fd7f29f0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/blackjack/Downloads/Yoga/HondaServiceBooking/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
+        <dex dex="/Users/blackjack/Downloads/Yoga/HondaServiceBooking/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.1.1_25d5d9b66becf28e64a7c4b6ca451e918d4feffc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/blackjack/Downloads/Yoga/HondaServiceBooking/app/build/intermediates/exploded-aar/com.android.support/design/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cd7951e04cfb9a8bf008d544a478d9a8d8192d38">
+        <dex dex="/Users/blackjack/Downloads/Yoga/HondaServiceBooking/app/build/intermediates/pre-dexed/debug/com.android.support-design-25.1.1_de1c4272a60fb93afafdd32c89e761d1dcf56f5b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/blackjack/.gradle/caches/modules-2/files-2.1/com.firebase/firebase-client-jvm/2.5.2/91731b8f5868a3e8a8a773f29b8d06b5c358f5bb/firebase-client-jvm-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="91731b8f5868a3e8a8a773f29b8d06b5c358f5bb">
+        <dex dex="/Users/blackjack/Downloads/Yoga/HondaServiceBooking/app/build/intermediates/pre-dexed/debug/firebase-client-jvm-2.5.2_cb74f0c42e946f779278201607d3c1bb2183b8e6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/blackjack/Downloads/Yoga/HondaServiceBooking/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a8ae156c2726ac9c56daaf4b49452ec2cdb7bba9">
+        <dex dex="/Users/blackjack/Downloads/Yoga/HondaServiceBooking/app/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-25.1.1_0a24a06835470c9e27f2c8e08088a896ee207ca7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/blackjack/Downloads/Yoga/HondaServiceBooking/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
+        <dex dex="/Users/blackjack/Downloads/Yoga/HondaServiceBooking/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.1.1_87649432811bb3fda70b6ac7d2efec3548d0a4b1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/blackjack/Downloads/Yoga/HondaServiceBooking/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
+        <dex dex="/Users/blackjack/Downloads/Yoga/HondaServiceBooking/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.1.1_4fbde7baf96c8d7c9e91cf2a764f6f635a2574c1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/blackjack/Downloads/Yoga/HondaServiceBooking/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
+        <dex dex="/Users/blackjack/Downloads/Yoga/HondaServiceBooking/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.1.1_c05ef76cce92e84adf502572b2e1448169737919.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/blackjack/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.2.2/3c8f6018eaa72d43b261181e801e6f8676c16ef6/jackson-databind-2.2.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3c8f6018eaa72d43b261181e801e6f8676c16ef6">
+        <dex dex="/Users/blackjack/Downloads/Yoga/HondaServiceBooking/app/build/intermediates/pre-dexed/debug/jackson-databind-2.2.2_6a1f0cc67de72d1e962f960ce0585ee95f724262.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/blackjack/Downloads/Yoga/HondaServiceBooking/app/build/intermediates/exploded-aar/com.android.support/transition/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="15b049fedbd8e3926bf99d9e45dfc9b2a1043bb9">
+        <dex dex="/Users/blackjack/Downloads/Yoga/HondaServiceBooking/app/build/intermediates/pre-dexed/debug/com.android.support-transition-25.1.1_8585b8c08f14059b05a3a22ca89089313b65e827.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/blackjack/Downloads/Yoga/HondaServiceBooking/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/blackjack/Downloads/Yoga/HondaServiceBooking/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.1.1_ae7db0332a89601950b78d67b504ae2e8d3a672b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/blackjack/Downloads/Yoga/HondaServiceBooking/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
+        <dex dex="/Users/blackjack/Downloads/Yoga/HondaServiceBooking/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.1.1_ed7a876bd1b602a1168328b89f5845c04a814bf4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/blackjack/Downloads/Yoga/HondaServiceBooking/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
+        <dex dex="/Users/blackjack/Downloads/Yoga/HondaServiceBooking/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.1.1_241049fcc8bd3d00469fb0681cf99b46f994ea50.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/blackjack/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/blackjack/Downloads/Yoga/HondaServiceBooking/app/build/intermediates/pre-dexed/debug/library-2.4.0_d76b6e5bab24aa8c1f20d577ca79a906f1c7431a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/blackjack/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient-android/4.3.5/82edcaec6c7b4599eaeaaf11167ceea41db42f33/httpclient-android-4.3.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="82edcaec6c7b4599eaeaaf11167ceea41db42f33">
+        <dex dex="/Users/blackjack/Downloads/Yoga/HondaServiceBooking/app/build/intermediates/pre-dexed/debug/httpclient-android-4.3.5_101cf7cd2f439c51aebf263b68bcb49bd408a0fe.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/blackjack/.gradle/caches/modules-2/files-2.1/com.firebase/firebase-client-android/2.5.2/f19f10d6276aa0b380e2d05d2ab3272d693a5433/firebase-client-android-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f19f10d6276aa0b380e2d05d2ab3272d693a5433">
+        <dex dex="/Users/blackjack/Downloads/Yoga/HondaServiceBooking/app/build/intermediates/pre-dexed/debug/firebase-client-android-2.5.2_b1d5dec11a2c24e47fb63f56d89724bbc7f58a4e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/blackjack/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.1/support-annotations-25.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
+        <dex dex="/Users/blackjack/Downloads/Yoga/HondaServiceBooking/app/build/intermediates/pre-dexed/debug/support-annotations-25.1.1_7d6abbd158a977d100c2bc917f045e87e5effc3f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/blackjack/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.2.2/d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b/jackson-core-2.2.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b">
+        <dex dex="/Users/blackjack/Downloads/Yoga/HondaServiceBooking/app/build/intermediates/pre-dexed/debug/jackson-core-2.2.2_7514572f9db92ae5e29586d9b15272e33574a3ca.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/blackjack/Downloads/Yoga/HondaServiceBooking/app/build/intermediates/exploded-aar/com.daimajia.slider/library/1.1.5/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="08962e03b6a954c65d4944e092879b7f5ee1208d">
+        <dex dex="/Users/blackjack/Downloads/Yoga/HondaServiceBooking/app/build/intermediates/pre-dexed/debug/com.daimajia.slider-library-1.1.5_05ca34f2b8fa4fa04e3d504436703d499c9c1060.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/blackjack/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.2.2/285cb9c666f0f0f3dd8a1be04e1f457eb7b15113/jackson-annotations-2.2.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="285cb9c666f0f0f3dd8a1be04e1f457eb7b15113">
+        <dex dex="/Users/blackjack/Downloads/Yoga/HondaServiceBooking/app/build/intermediates/pre-dexed/debug/jackson-annotations-2.2.2_fd17361ae6c426eb4e721701a99c4b2605b130d3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/blackjack/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.3.2/d6b7f0093cec6c9faf65dbfd6a6a345d0ed25e27/picasso-2.3.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d6b7f0093cec6c9faf65dbfd6a6a345d0ed25e27">
+        <dex dex="/Users/blackjack/Downloads/Yoga/HondaServiceBooking/app/build/intermediates/pre-dexed/debug/picasso-2.3.2_1b4f68127b8722f733ed716b7d78af7e42e90016.jar" />
+    </item>
+
+</items>

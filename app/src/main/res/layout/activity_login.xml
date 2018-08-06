@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yoga.hondaservicebooking.Login">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:padding="16dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:src="@drawable/ic_honda"
+                android:layout_height="120dp"
+                android:layout_marginTop="24dp" />
+
+            <TextView
+                android:text="Service Booking"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textStyle="normal|bold"
+                android:fontFamily="serif" />
+
+            <TextView
+                android:text="Aplikasi Pemesanan Jadwal Service \nAstra Motor Plaju Palembang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:gravity="center"
+                android:textSize="14sp"
+                android:textStyle="normal|bold"
+                android:fontFamily="sans-serif" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@color/colorPrimary" />
+            <TextView
+                android:text="Username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:id="@+id/txtUSR"
+                android:padding="10dp"
+                android:background="#FAFAFA"
+                android:hint="Email"
+                android:inputType="textEmailAddress" />
+            <TextView
+                android:text="Password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="5dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:id="@+id/txtPWD"
+                android:padding="10dp"
+                android:background="#FAFAFA"
+                android:hint="Password" />
+
+            <Button
+                android:text="MASUK"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnLogin"
+                android:background="@android:color/black"
+                android:textColor="@android:color/white"
+                android:layout_marginTop="20dp"
+                android:onClick="showMain" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@color/colorPrimary" />
+
+                <TextView
+                    android:text="Belum Punya Akun ?"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorPrimary"
+                    android:gravity="center"
+                    android:textSize="14sp"
+                    android:textStyle="normal|bold"
+                    android:fontFamily="sans-serif"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:background="#FAFAFA"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp" />
+            </RelativeLayout>
+
+            <TextView
+                android:text="Kunjungi Astra Motor Plaju Palembang untuk melakukan pendaftaran akun"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:gravity="center"
+                android:textSize="14sp"
+                android:textStyle="normal|bold"
+                android:fontFamily="sans-serif"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:background="#FAFAFA"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" />
+            <!--<Button-->
+                <!--android:text="BUAT AKUN"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:id="@+id/btnRegister"-->
+                <!--android:background="@android:color/holo_orange_dark"-->
+                <!--android:textColor="@android:color/white"-->
+                <!--android:onClick="showRegister" />-->
+
+            <TextView
+                android:text="&#169; 2017. Astra Motor Plaju Palembang."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView8"
+                android:gravity="center"
+                android:paddingTop="10dp"
+                android:textSize="12sp"
+                android:textColor="@android:color/black" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

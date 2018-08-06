@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_kendaraan"
+            android:icon="@drawable/ic_kendaraan"
+            android:title="Kendaraan Anda" />
+        <item
+            android:id="@+id/nav_booking"
+            android:icon="@drawable/ic_booking"
+            android:title="Booking Service" />
+        <item
+            android:id="@+id/nav_riwayat"
+            android:icon="@drawable/ic_riwayat"
+            android:title="Riwayat Service" />
+        <item
+            android:id="@+id/nav_pengaturan"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Pengaturan" />
+        <item
+            android:id="@+id/nav_saran"
+            android:icon="@drawable/ic_saran"
+            android:title="Kritik &amp; Saran" />
+        <item
+            android:id="@+id/nav_tentang"
+            android:icon="@drawable/ic_tentang"
+            android:title="Tentang" />
+    </group>
+
+</menu>

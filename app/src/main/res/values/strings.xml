@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Honda Service Booking</string>
+    <string name="title_activity_main">Beranda</string>
+    <string name="app_register">Daftar Akun Baru</string>
+    <string name="app_kendaraan">Kendaraan Anda</string>
+    <string name="app_kendaraan_add">Tambah Kendaraan</string>
+    <string name="app_kendaraan_edit">Ubah Kendaraan</string>
+    <string name="app_booking">Daftar Booking</string>
+    <string name="app_booking_add">Tambah Booking</string>
+    <string name="app_booking_edit">Ubah Booking</string>
+    <string name="app_riwayat">Riwayat Service</string>
+    <string name="app_riwayat_detail">Detail Service</string>
+    <string name="app_pengaturan">Pengaturan</string>
+    <string name="app_pengaturan_password">Ganti Password</string>
+    <string name="app_tentang">Tentang</string>
+    <string name="app_saran">Saran dan Kritik</string>
+
+    <string name="menu_add">Tambah</string>
+    <string name="menu_delete">Hapus</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <array name="arr_agama">
+        <item>Islam</item>
+        <item>Kristen</item>
+        <item>Protestan</item>
+        <item>Hindu</item>
+        <item>Budha</item>
+        <item>Kong Hu Chu</item>
+    </array>
+
+    <string-array name="arr_jam">
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+    </string-array>
+
+    <string-array name="arr_menit">
+        <item>00</item>
+    </string-array>
+</resources>

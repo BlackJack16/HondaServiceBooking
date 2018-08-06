@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yoga.hondaservicebooking.Register"
+    android:background="#f9f9f9">
+
+    <TextView
+        android:text="* Semua Data harus diisi!\n* Isilah data diri Anda sesuai KTP/SIM/Paspor!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lblKet"
+        android:textColor="@android:color/black"
+        android:padding="10dp"
+        android:background="@android:color/white" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/lblKet">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <TextView
+                android:text="Nomor Identitas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:id="@+id/txtNo"
+                android:inputType="number"
+                android:hint="Nomor Identitas"
+                android:background="@android:color/white"
+                android:padding="10dp"
+                android:digits="0123456789" />
+
+            <TextView
+                android:text="Nama Lengkap"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:id="@+id/txtNama"
+                android:inputType="textPersonName"
+                android:hint="Nama Lengkap"
+                android:background="@android:color/white"
+                android:padding="10dp" />
+
+            <TextView
+                android:text="Alamat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:gravity="top"
+                android:ems="10"
+                android:id="@+id/txtAlamat"
+                android:inputType="textMultiLine"
+                android:hint="Alamat"
+                android:background="@android:color/white"
+                android:padding="10dp"
+                android:layout_height="100dp" />
+
+            <TextView
+                android:text="Tempat Lahir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:id="@+id/txtTempatLahir"
+                android:inputType="textPersonName"
+                android:hint="Nama Kota Tempat Lahir"
+                android:background="@android:color/white"
+                android:padding="10dp" />
+            <TextView
+                android:text="Tanggal Lahir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:background="@android:color/white"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:ems="10"
+                    android:background="@android:color/white"
+                    android:layout_weight="1"
+                    android:id="@+id/txtLahir"
+                    android:inputType="none"
+                    android:editable="false"
+                    android:hint="DD/MM/YYYY"
+                    android:padding="10dp" />
+                <ImageView
+                    android:padding="10dp"
+                    android:onClick="showPicker"
+                    android:src="@drawable/ic_kalender"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <TextView
+                android:text="Jenis Kelamin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp" />
+
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/rgJK"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:text="Laki - Laki"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rbL"
+                    android:layout_weight="1"
+                    android:checked="true" />
+
+                <RadioButton
+                    android:text="Perempuan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rbP"
+                    android:layout_weight="1" />
+            </RadioGroup>
+
+            <TextView
+                android:text="Agama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp" />
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/white">
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/cbAgama"
+                    android:padding="10dp"
+                    android:entries="@array/arr_agama" />
+            </LinearLayout>
+
+            <TextView
+                android:text="Telepon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:id="@+id/txtTelepon"
+                android:inputType="number"
+                android:digits="0123456789"
+                android:hint="Nomor Telepon / Seluler"
+                android:background="@android:color/white"
+                android:padding="10dp" />
+
+            <TextView
+                android:text="Email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:id="@+id/txtEmail"
+                android:inputType="textEmailAddress"
+                android:hint="Email"
+                android:background="@android:color/white"
+                android:padding="10dp" />
+
+            <TextView
+                android:text="Password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:id="@+id/txtPassword"
+                android:inputType="textPassword"
+                android:hint="Password"
+                android:background="@android:color/white"
+                android:padding="10dp" />
+            <TextView
+                android:text="Password harus memiliki setidaknya 6 karakter dengan huruf atau angka"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="@android:color/black" />
+
+            <CheckBox
+                android:id="@+id/chkSetuju"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Saya menyetujui informasi yang saya berikan telah benar."
+                android:textColor="@android:color/black"
+                android:textSize="13sp"
+                android:layout_marginTop="10dp" />
+
+            <Button
+                android:id="@+id/btnDaftar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@color/colorAccent"
+                android:elevation="4dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="5dp"
+                android:text="Daftar Akun"
+                android:textColor="@android:color/white"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

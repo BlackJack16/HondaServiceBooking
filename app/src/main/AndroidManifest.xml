@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yoga.hondaservicebooking">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE"/>
+
+    <application
+        android:name=".Launcher"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <service android:name=".NotificationListener"/>
+
+        <activity
+            android:name=".Login"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Main"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Register"
+            android:label="@string/app_register" />
+        <activity
+            android:name=".Kendaraan"
+            android:label="@string/app_kendaraan" />
+        <activity
+            android:name=".Booking"
+            android:label="@string/app_booking" />
+        <activity
+            android:name=".Riwayat"
+            android:label="@string/app_riwayat" />
+        <activity
+            android:name=".Pengaturan"
+            android:label="@string/app_pengaturan" />
+        <activity
+            android:name=".Tentang"
+            android:label="@string/app_tentang" />
+        <activity
+            android:name=".GantiPassword"
+            android:label="@string/app_pengaturan_password"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".KendaraanAdd"
+            android:label="@string/app_kendaraan_add"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".KendaraanEdit"
+            android:label="@string/app_kendaraan_edit"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".BookingAdd"
+            android:label="@string/app_booking_add"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".BookingEdit"
+            android:label="@string/app_booking_edit"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".RiwayatDetail"
+            android:label="@string/app_riwayat_detail"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Event"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Saran"
+            android:label="@string/app_saran"/>
+    </application>
+
+</manifest>
